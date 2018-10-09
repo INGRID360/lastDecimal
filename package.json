@@ -1,0 +1,23 @@
+{
+  "name": "lastdecimal",
+  "version": "0.1.0",
+  "description": "Increase or decrease last decimal",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/INGRID360/lastDecimal.git"
+  },
+  "keywords": [
+    "decimals",
+    "numbers"
+  ],
+  "author": "“M” <“m@ingridx.com”> (https://ingridx.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/INGRID360/lastDecimal/issues"
+  },
+  "homepage": "https://github.com/INGRID360/lastDecimal#readme"
+}
