@@ -13,7 +13,11 @@ A small library that increase or decrease the last decimal
 
     var formattedNum = numFormatter(35666);
 
-Output should be `35,666`
+## Todo
+
+Setup automated build with Travis
+Analyse code-coverage with Codecov
+Add badges to your readme with Shields. Everyone loves badges 😎
 
 ## Tests
 
