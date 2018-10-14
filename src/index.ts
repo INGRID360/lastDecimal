@@ -1,4 +1,4 @@
-function lastdecimal(value: number, bool: boolean) {
+export function lastdecimal(value: number, bool: boolean) {
   let container: string;
   let sum: number;
   let decimal: string;
@@ -15,7 +15,5 @@ function lastdecimal(value: number, bool: boolean) {
 
   return decimal;
 }
-
-export { lastdecimal };
 
 // `Hello ${value}`;
