@@ -1,16 +1,16 @@
 import { lastdecimal } from '../index';
 test('lastdecimal', () => {
-  expect(lastdecimal(555.555, true)).toBe('555.554');
+  expect(lastdecimal(555.555, true)).toBe('555.556');
 });
 
 test('lastdecimal', () => {
-  expect(lastdecimal(5.555421, true)).toBe('5.555420');
+  expect(lastdecimal(5.559999, true)).toBe('5.560000');
 });
 
 test('lastdecimal', () => {
-  expect(lastdecimal(555.555, false)).toBe('555.556');
+  expect(lastdecimal(554.1, false)).toBe('554.0');
 });
 
 test('lastdecimal', () => {
-  expect(lastdecimal(5.321312399, false)).toBe('5.321312400');
+  expect(lastdecimal(5.3213123, false)).toBe('5.3213122');
 });
