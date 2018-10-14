@@ -1,4 +1,4 @@
-const lastDecimal = (value: number, bool: boolean) => {
+function lastDecimal(value: number, bool: boolean) {
   let container: string;
   let sum: number;
   let decimal: string;
@@ -14,7 +14,7 @@ const lastDecimal = (value: number, bool: boolean) => {
   decimal = sum.toFixed(numDec);
 
   return decimal;
-};
+}
 
 export { lastDecimal };
 
