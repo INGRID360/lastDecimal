@@ -16,8 +16,8 @@ var lastdecimal = require("lastdecimal")
 var numDown = lastdecimal.lastdecimal(555.555, true);
 var numUp = lastdecimal.lastdecimal(555.555, false);
 
-console.log(numDown);
-console.log(numUp);
+console.log(numDown); // Should return 555.554
+console.log(numUp); // Should return 555.556
 ```
 
 ## Todo
