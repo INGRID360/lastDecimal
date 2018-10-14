@@ -10,14 +10,26 @@ https://www.npmjs.com/package/lastdecimal
 
 ## Usage
 
-`lastdecimal(value: number, bool: boolean)`  
-**value**: Any number with decimals  
-`0.4211` = OK!
+`lastdecimal(value: number, bool: boolean)`
+
+---
+
+**value**: Any number with decimals
+
+`0.4211` = OK!  
 `5152.31290` = OK!  
-`123` = NOT OK!  
-**bool**: true / false  
+`123` = NOT OK!
+
+---
+
+**bool**: true / false
+
 `true`= increase last decimal with 1  
 `false`= decrease last decimal with 1
+
+---
+
+### Examples
 
 ```
 var lastdecimal = require("lastdecimal")
@@ -42,3 +54,8 @@ Add badges to your readme with Shields. Everyone loves badges 😎
 ## Contributing
 
 Create PR with description
+
+## Author
+
+[Mathias](https://twitter.com/mathiiias123)  
+[INGRID Ventures](https://ingridx.com)
