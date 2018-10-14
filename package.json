@@ -1,6 +1,6 @@
 {
   "name": "lastdecimal",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Increase or decrease last decimal",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
