@@ -9,9 +9,15 @@ A small library that increase or decrease the last decimal
 
 ## Usage
 
-    var numFormatter = require('@jdaudier/number-formatter');
+```
+var lastdecimal = require("lastdecimal")
 
-    var formattedNum = numFormatter(35666);
+var numDown = lastdecimal.lastdecimal(555.555, true);
+var numUp = lastdecimal.lastdecimal(555.555, false);
+
+console.log(numDown);
+console.log(numUp);
+```
 
 ## Todo
 
