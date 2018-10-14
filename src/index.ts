@@ -1,8 +1,13 @@
 export function lastdecimal(value: number, bool: boolean) {
+  // Vars
   let container: string;
   let sum: number;
   let decimal: string;
 
+  // Check so value exist else return.
+  if (value == null) {
+    return;
+  }
   container = value.toString();
   const numDec = container.split('.')[1].length;
   // If true
@@ -13,7 +18,6 @@ export function lastdecimal(value: number, bool: boolean) {
   }
   decimal = sum.toFixed(numDec);
 
+  // Return our new value
   return decimal;
 }
-
-// `Hello ${value}`;
