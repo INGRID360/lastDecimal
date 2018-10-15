@@ -14,3 +14,7 @@ test('lastdecimal', () => {
 test('lastdecimal', () => {
   expect(lastdecimal(5.3213123, false)).toBe('5.3213122');
 });
+
+test('lastdecimal', () => {
+  expect(lastdecimal(0, true)).toBe(undefined);
+});

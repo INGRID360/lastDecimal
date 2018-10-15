@@ -5,11 +5,12 @@ export function lastdecimal(value: number, bool: boolean) {
   let decimal: string;
 
   // Check so value exist else return.
-  if (value == null) {
+  container = value.toString();
+  const split = container.split('.')[1];
+  if (typeof split === 'undefined') {
     return;
   }
-  container = value.toString();
-  const numDec = container.split('.')[1].length;
+  const numDec = split.length;
   // If true
   if (bool === true) {
     sum = value + Math.pow(10, -numDec);

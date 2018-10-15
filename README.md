@@ -34,11 +34,12 @@ https://www.npmjs.com/package/lastdecimal
 ```
 var lastdecimal = require("lastdecimal")
 
-var numDown = lastdecimal.lastdecimal(555.555, true);
-var numUp = lastdecimal.lastdecimal(555.555, false);
 
-console.log(numDown); // Should return 555.554
+var numUp = lastdecimal.lastdecimal(555.555, true);
+var numDown = lastdecimal.lastdecimal(555.555, false);
+
 console.log(numUp); // Should return 555.556
+console.log(numDown); // Should return 555.554
 ```
 
 ## Todo
@@ -57,5 +58,7 @@ Create PR with description
 
 ## Author
 
-[Mathias](https://twitter.com/mathiiias123)  
+[Mathias](https://twitter.com/mathiias123)  
+[Mateusz](https://github.com/goalon)  
+@  
 [INGRID Ventures](https://ingridx.com)
