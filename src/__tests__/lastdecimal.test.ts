@@ -16,5 +16,5 @@ test('lastdecimal', () => {
 });
 
 test('lastdecimal', () => {
-  expect(lastdecimal(0, true)).toBe(undefined);
+  expect(lastdecimal(0, true)).toBe('1.1');
 });

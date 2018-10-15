@@ -8,7 +8,8 @@ export function lastdecimal(value: number, bool: boolean) {
   container = value.toString();
   const split = container.split('.')[1];
   if (typeof split === 'undefined') {
-    return;
+    decimal = '1.1';
+    return decimal;
   }
   const numDec = split.length;
   // If true
